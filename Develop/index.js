@@ -3,7 +3,7 @@ const inquirer = require('inquirer');
 const fs = require('fs');
 const generateMarkdown = require('./utils/generateMarkdown');
 // TODO: Create an array of questions for user input
-// set of quietions for: Name of title for project, description of the project, istallation, usage, license, contributions, email address, github username . 
+// set of questions for: Name of title for project, description of the project, istallation, usage, license, contributions, email address, github username . 
 
 const questions = [
     {
